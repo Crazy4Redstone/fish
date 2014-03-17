@@ -15,6 +15,11 @@ ModPE.setFoodItem (350,'fish_cooked',0,6,'Cooked Fish')
 ModPE.setFoodItem (322,'apple_golden',0,20,'Golden Apple')
 ModPE.setFoodItem (357,'cookie',0,1,'Cookie')
 
+// Blocks
+
+Block.defineBlock (145,'Anvil',['anvil_top_damaged_x'])
+Block.setShape (145,0,0,0,0.25,1,0.75)
+
 // Crafting
 
 ModPE.addCraftRecipe (346,1,0,[280,0,280,0,280,0,287,0,287,0])
