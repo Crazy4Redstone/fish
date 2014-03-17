@@ -22,9 +22,9 @@ ModPE.addFurnaceRecipe (350,0,349)
 
 // Functions
 
-function useItem (x,y,z,i,b,s)
+function useItem (x,y,z,itemId,blockId,side)
 {
-	if (i == 346 && b !== 0 && getTile (x,y+1,z) == 8 && side == 1 || i == 346 && b !== 0 && getTile (x,y+1,z) == 9 && side == 1)
+	if (itemId == 346 && blockId !== 0 && getTile (x,y+1,z) == 8 && side == 1 || itemId == 346 && blockId !== 0 && getTile (x,y+1,z) == 9 && side == 1)
 	{
 	var random = Math.floor ((Math.random() * 35) +1)
 	if (random <=23 || random == 24 || random == 25 || random == 26)
