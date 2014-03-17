@@ -6,7 +6,7 @@
 ModPE.setItem (346,'fishing_rod_uncast',0,'Fishing Rod')
 ModPE.setItem (371,'gold_nugget',0,'Gold Nugget')
 ModPE.setItem (422,'dye_powder',3,'Coco Beans')
-ModPE.setItemCategory (371,3,0)
+ModPE.setItemCategory (371,6,0)
 
 // Foods
 
