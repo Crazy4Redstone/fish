@@ -1,4 +1,4 @@
-// Fishing Mod
+// Fishing Mod/More foods/More blocks/More items
 // Made by Crazy4Redstone
 
 // Items
