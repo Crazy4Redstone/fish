@@ -6,9 +6,7 @@
 ModPE.setItem (346,'fishing_rod_uncast',0,'Fishing Rod')
 ModPE.setItem (371,'gold_nugget',0,'Gold Nugget')
 ModPE.setItem (422,'dye_powder',3,'Coco Beans')
-ModPE.setItem (145,'cauldron',0,'Anvil')
 ModPE.setItemCategory (371,40,0)
-ModPE.setItemCategory (145,20,0)
 
 // Foods
 
@@ -57,6 +55,92 @@ function useItem (x,y,z,itemId,blockId,side)
 	else if (random >= 30)
 	{
 	preventDefault ()
+	}
+	}
+	if (itemId == 267 && blockId == 145)
+	{
+		addItemInventory (267,-1)
+		addItemInventory (267,1)
+	}
+	else if (itemId == 272 && blockId == 145)
+	{
+		addItemInventory (272,-1)
+		additemInventory (272,1)
+	}
+	else if (itemId == 273 && blockId == 145)
+	{
+		addItemInventory (273,-1)
+		addItemInventory (273,1)
+	}
+		else if (itemId == 274 && blockId == 145)
+	{
+		addItemInventory (274,-1)
+		addItemInventory (274,1)
+	}
+		else if (itemId == 275 && blockId == 145)
+	{
+		addItemInventory (275,-1)
+		addItemInventory (275,1)
+	}
+		else if (itemId == 276 && blockId == 145)
+	{
+		addItemInventory (276,-1)
+		addItemInventory (276,1)
+	}
+		else if (itemId == 277 && blockId == 145)
+	{
+		addItemInventory (277,-1)
+		addItemInventory (277,1)
+	}
+		else if (itemId == 278 && blockId == 145)
+	{
+		addItemInventory (278,-1)
+		addItemInventory (278,1)
+	}
+		else if (itemId == 279 && blockId == 145)
+	{
+		addItemInventory (279,-1)
+		addItemInventory (279,1)
+	}
+		else if (itemId == 283 && blockId == 145)
+	{
+		addItemInventory (283,-1)
+		addItemInventory (283,1)
+	}
+		else if (itemId == 284 && blockId == 145)
+	{
+		addItemInventory (284,-1)
+		addItemInventory (284,1)
+	}
+		else if (itemId == 285 && blockId == 145)
+	{
+		addItemInventory (285,-1)
+		addItemInventory (285,1)
+	}
+		else if (itemId == 286 && blockId == 145)
+	{
+		addItemInventory (286,-1)
+		addItemInventory (286,1)
+	}
+		else if (itemId == 291 && blockId == 145)
+	{
+		addItemInventory (291,-1)
+		addItemInventory (291,1)
+	}
+		else if (itemId == 292 && blockId == 145)
+	{
+		addItemInventory (292,-1)
+		addItemInventory (292,1)
+	}
+		else if (itemId == 293 && blockId == 145)
+	{
+		addItemInventory (293,-1)
+		addItemInventory (293,1)
+	}
+		else if (itemId == 294 && blockId == 145)
+	{
+		addItemInventory (294,-1)
+		addItemInventory (294,1)
 	}
 	}
 }
