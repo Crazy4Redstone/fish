@@ -17,7 +17,7 @@ ModPE.setFoodItem (357,'cookie',0,1,'Cookie')
 
 // Blocks
 
-Block.defineBlock (145,'Anvil',['anvil_top_damaged_x'])
+Block.defineBlock (145,'Anvil',['anvil_top_damaged_x'],50,false,0)
 Block.setShape (145,0,0,0,1,1,1)
 
 // Crafting
@@ -27,6 +27,7 @@ ModPE.addCraftRecipe (322,1,0,[260,0,371,0,371,0,371,0,371,0,371,0,371,0,371,0,3
 ModPE.addCraftRecipe (357,1,0,[296,0,296,0,422,0])
 ModPE.addCraftRecipe (371,9,0,[266,0])
 ModPE.addCraftRecipe (266,1,0,[371,0,371,0,371,0,371,0,371,0,371,0,371,0,371,0,371,0,])
+ModPE.setCraftRecipe (145,1,0,[42,0,42,0,42,0,265,0,265,0,265,0,265,0])
 
 // Furnace
 
