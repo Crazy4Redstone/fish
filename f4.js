@@ -18,7 +18,7 @@ ModPE.addCraftRecipe (346,1,0,[280,3,287,2])
 
 // Furnace
 
-ModPE.addFurnaceRecipe (349,1,350)
+ModPE.addFurnaceRecipe (349,350,350)
 
 // Functions
 
