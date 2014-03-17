@@ -39,4 +39,5 @@ function useItem (x,y,z,i,b,s)
 	{
 	preventDefault ()
 	}
+	}
 }
