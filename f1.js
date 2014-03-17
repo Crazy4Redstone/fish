@@ -3,14 +3,14 @@
 
 // Items
 
-ModPE.setItem (346,’fishing_rod_uncast’,0,’Fishing Rod’)
-ModPE.setItem (349,’fish_raw’,0,’Raw Fish’)
-ModPE.setItem (350,’fish_cooked’,0,’Cooked Fish’)
+ModPE.setItem (346,'fishing_rod_uncast',0,'Fishing Rod')
+ModPE.setItem (349,'fish_raw',0,'Raw Fish')
+ModPE.setItem (350,'fish_cooked',0,'Cooked Fish')
 
 // Foods
 
-ModPE.setFoodItem (349,’fish_raw’,0,3,’Raw Fish’)
-ModPE.setFoodItem (350,’fish_cooked’,0,3,’Cooked Fish’)
+ModPE.setFoodItem (349,'fish_raw',0,3,'Raw Fish')
+ModPE.setFoodItem (350,'fish_cooked',0,3,'Cooked Fish')
 
 // Crafting
 
