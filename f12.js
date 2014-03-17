@@ -11,7 +11,7 @@ ModPE.setItem (422,'dye_powder',3,'Coco Beans')
 
 ModPE.setFoodItem (349,'fish_raw',0,3,'Raw Fish')
 ModPE.setFoodItem (350,'fish_cooked',0,6,'Cooked Fish')
-ModPE.setFoodItem (322,'apple_golden',0,18,'Golden Apple')
+ModPE.setFoodItem (322,'apple_golden',0,20,'Golden Apple')
 ModPE.setFoodItem (357,'cookie',0,1,'Cookie')
 
 // Crafting
