@@ -143,5 +143,4 @@ function useItem (x,y,z,itemId,blockId,side)
 		addItemInventory (294,1)
 	}
 	}
-}
-}
+
