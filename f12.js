@@ -19,6 +19,7 @@ ModPE.setFoodItem (357,'cookie',0,1,'Cookie')
 ModPE.addCraftRecipe (346,1,0,[280,0,280,0,280,0,287,0,287,0])
 ModPE.addCraftRecipe (322,1,0,[260,0,371,0,371,0,371,0,371,0,371,0,371,0,371,0,371,0])
 ModPE.addCraftRecipe (357,1,0,[296,0,296,0,422,0])
+ModPE.addCraftRecipe (371,9,0,[266,0])
 
 // Furnace
 
