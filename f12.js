@@ -6,6 +6,7 @@
 ModPE.setItem (346,'fishing_rod_uncast',0,'Fishing Rod')
 ModPE.setItem (371,'gold_nugget',0,'Gold Nugget')
 ModPE.setItem (422,'dye_powder',3,'Coco Beans')
+ModPE.setItemCategory (371,3,0)
 
 // Foods
 
@@ -20,6 +21,7 @@ ModPE.addCraftRecipe (346,1,0,[280,0,280,0,280,0,287,0,287,0])
 ModPE.addCraftRecipe (322,1,0,[260,0,371,0,371,0,371,0,371,0,371,0,371,0,371,0,371,0])
 ModPE.addCraftRecipe (357,1,0,[296,0,296,0,422,0])
 ModPE.addCraftRecipe (371,9,0,[266,0])
+ModPE.setCraftRecipe (266,1,0,[371,0,371,0,371,0,371,0,371,0,371,0,371,0,371,0,371,0,])
 
 // Furnace
 
