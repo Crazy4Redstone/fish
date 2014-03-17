@@ -18,7 +18,7 @@ ModPE.setFoodItem (357,'cookie',0,1,'Cookie')
 // Blocks
 
 Block.defineBlock (145,'Anvil',['anvil_top_damaged_x'])
-Block.setShape (145,0,0,0,0.25,1,0.75)
+Block.setShape (145,0,0,0,1,1,1)
 
 // Crafting
 
