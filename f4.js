@@ -46,6 +46,7 @@ function useItem (x,y,z,itemId,blockId,side)
 	}
 	if (itemId == 349 && blockId == 62)
 	{
+		preventDefault ()
 		addItemInventory (349,-1)
 		addItemInventory (350,1)
 	}
